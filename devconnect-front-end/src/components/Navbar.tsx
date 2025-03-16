@@ -1,23 +1,25 @@
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="nav">
-      <a href="/" className="site-title">Dev Connect</a>
+      <Link to="/Dashboard" className="site-title">Dev Connect</Link>
+      <Link to="/Dashboard"><img src="./images/devconnect-logo.png"></img></Link>
       <ul>
         <li>
-            <a href='/Dashboard.tsx'>Dashboard</a>
+            <Link to='/Dashboard'>Dashboard</Link>
         </li>
         <li>
-            <a href='/Login.tsx'>Login</a>
+            <Link to='/Login'>Login</Link>
         </li>
         <li>
-            <a href='/Profile.tsx'>Profile</a>
+            <Link to='/Profile'>Profile</Link>
         </li>
         <li>
-            <a href='/Projects.tsx'>Projects</a>
+            <Link to='/Projects'>Projects</Link>
         </li>
         <li>
-            <a href='/Register.tsx'>Register</a>
+            <Link to='/Register'>Register</Link>
         </li>
       </ul>
     </nav>
