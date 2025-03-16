@@ -5,19 +5,19 @@ const Navbar = () => {
       <a href="/" className="site-title">Dev Connect</a>
       <ul>
         <li>
-            <a href='./pages/Dashboard.tsx'>Dashboard</a>
+            <a href='/Dashboard.tsx'>Dashboard</a>
         </li>
         <li>
-            <a href='./pages/Login.tsx'>Login</a>
+            <a href='/Login.tsx'>Login</a>
         </li>
         <li>
-            <a href='./pages/Profile.tsx'>Profile</a>
+            <a href='/Profile.tsx'>Profile</a>
         </li>
         <li>
-            <a href='./pages/Projects.tsx'>Projects</a>
+            <a href='/Projects.tsx'>Projects</a>
         </li>
         <li>
-            <a href='./pages/Register.tsx'>Register</a>
+            <a href='/Register.tsx'>Register</a>
         </li>
       </ul>
     </nav>
