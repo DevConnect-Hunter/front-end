@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="nav">
       <Link to="/Dashboard" className="site-title">Dev Connect</Link>
-      <Link to="/Dashboard"><img src="./images/devconnect-logo.png"></img></Link>
+      <Link to="/Dashboard"><img src="/images/devconnect-logo.png"></img></Link>
       <ul>
         <li>
             <Link to='/Dashboard'>Dashboard</Link>
